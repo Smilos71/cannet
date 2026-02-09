@@ -54,4 +54,4 @@ If you want to host your own website on the Cannet network:
    MY_DOMAIN = "example.can"
    MY_TOKEN = "your_private_token"
 
- #  Privacy Note: The Hub is designed as a zero-log relay. Incoming traffic is processed in-memory and is never written to disk. However, as with any proxy-based network, users should avoid transmitting sensitive unencrypted credentials.
+ Privacy Note: The Hub is designed as a zero-log relay. Incoming traffic is processed in-memory and is never written to disk. However, as with any proxy-based network, users should avoid transmitting sensitive unencrypted credentials.
