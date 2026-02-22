@@ -1,6 +1,6 @@
 # 🌐 Cannet Network
 ### A Private, Decentralized Intranet Protocol
-**GitHub Repository:** [smilos71/cannet](https://github.com/smilos71/cannet)
+
 
 Cannet is a closed-loop network layer operating over the standard internet. It uses **WebSocket Tunnels** to host and access private `.can` domains without exposing users' public IP addresses or requiring complex network configurations.
 
@@ -8,13 +8,9 @@ Cannet is a closed-loop network layer operating over the standard internet. It u
 
 ## ⚠️ MANDATORY SECURITY & LEGAL DISCLAIMER
 
-### 1. Security Risk
-The `can.py` (Server) script is a **Minimalist Transparent Proxy**. It does not feature native filesystem sandboxing. 
-- **NEVER** run the server script directly on your host OS. 
-- **REQUIREMENT:** Use an isolated environment like **Docker** or **Pterodactyl**. 
-- Failure to do so may expose your entire drive to **Directory Traversal attacks**.
 
-### 2. Liability Limitation
+
+### Liability Limitation
 The developers and operators of the Cannet Hub are **NOT RESPONSIBLE** for any content hosted by individual users on the network. 
 - We do not host the data; we only provide the routing infrastructure (Relay).
 - Users are solely responsible for the legality and nature of the content they provide through their `.can` nodes.
@@ -47,10 +43,6 @@ If you want to host your own website on the Cannet network:
 2. **Download:** Get the `server.zip` from the [Releases](https://github.com/smilos71/cannet/releases) section. It contains the `can.py` script.
 3. **Configuration:** Edit `can.py` with your credentials:
    ```python
-   # DO NOT CHANGE THE HUB_URL unless an official announcement is made 
-   # on smilos71/cannet regarding a server IP change.
-   HUB_URL = "ws://87.106.62.92:11697"
-   
    MY_DOMAIN = "example.can"
    MY_TOKEN = "your_private_token"
 
